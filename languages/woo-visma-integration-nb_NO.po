@@ -1,0 +1,1383 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2024-08-09 01:22+0200\n"
+"PO-Revision-Date: 2024-08-12 14:05+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: nb_NO\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.4.4\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-SearchPath-0: includes\n"
+"X-Poedit-SearchPath-1: plugin.php\n"
+
+#: assets/templates/admin/template-popup-visma-order-sync.php:19
+msgid "Order synkronisering"
+msgstr "Synkronisering av bestillinger"
+
+#: assets/templates/admin/template-popup-visma-order-sync.php:21
+msgid "Stäng"
+msgstr "Lukk"
+
+#: assets/templates/admin/template-popup-visma-order-sync.php:26
+#, php-format
+msgid "Synkronisera ordrar från<br>%s till %s"
+msgstr "Synkroniser bestillinger fra<br>%s til %s"
+
+#: assets/templates/admin/template-popup-visma-order-sync.php:31
+msgid "Order status"
+msgstr "Status for bestilling"
+
+#: assets/templates/admin/template-popup-visma-order-sync.php:39
+#: assets/templates/admin/template-popup-visma-product-sync.php:21
+msgid "Progress"
+msgstr "Fremgang"
+
+#: assets/templates/admin/template-popup-visma-order-sync.php:52
+#: assets/templates/admin/template-popup-visma-order-sync.php:53
+#: assets/templates/admin/template-popup-visma-product-sync.php:35
+msgid "Starta"
+msgstr "Start"
+
+#: assets/templates/admin/template-popup-visma-product-sync.php:14
+msgid "Produktsynkronisering"
+msgstr "Synkronisering av produkter"
+
+#: assets/templates/admin/template-popup-visma-product-sync.php:29
+msgid "Klicka på Start för att påbörja synkroniseringen."
+msgstr "Klikk Start for å starte synkroniseringen."
+
+#: assets/templates/admin/template-popup-visma-product-sync.php:34
+msgid "Start"
+msgstr "Start"
+
+#: includes/api/class-wtv-customers.php:126
+msgid "Kund finns ej i Visma eEkonomi"
+msgstr "Kunden eksisterer ikke i Visma eEkonomi"
+
+#: includes/api/class-wtv-error-handling.php:12
+msgid ""
+"Du är inte längre inloggad. Var god klicka på knappen Logga in först och "
+"slutför inloggningen."
+msgstr ""
+"Du er ikke lenger pålogget. Vennligst klikk på Logg inn-knappen først og "
+"fullfør påloggingen."
+
+#: includes/api/class-wtv-error-handling.php:16
+msgid ""
+"This error is thrown when any data model validations are broken in the "
+"request. See the rules for each POST method on each property."
+msgstr ""
+
+#: includes/api/class-wtv-error-handling.php:20
+msgid ""
+"This error is thrown when you refer to a specific object that does not "
+"exist, eg. customers, suppliers or articles in a request."
+msgstr ""
+
+#: includes/api/class-wtv-error-handling.php:24
+msgid ""
+"This error is thrown when you refer to a specific fiscalyear that does not "
+"exist."
+msgstr ""
+
+#: includes/api/class-wtv-error-handling.php:28
+msgid ""
+"This error is thrown when you refer to a specific account that does not "
+"exist."
+msgstr ""
+
+#: includes/api/class-wtv-error-handling.php:32
+msgid ""
+"This error is thrown when you have insufficient permissions to bookeep an "
+"invoice when using supplier invoice approval flow."
+msgstr ""
+
+#: includes/api/class-wtv-error-handling.php:36
+msgid ""
+"This error is thrown when you try to create a object that cannot exist as a "
+"duplicate."
+msgstr ""
+
+#: includes/api/class-wtv-error-handling.php:40
+msgid ""
+"This error is thrown when you try to delete a object that cannot be deleted. "
+"For example, when a object has dependencies, it cannot be deleted."
+msgstr ""
+
+#: includes/api/class-wtv-error-handling.php:44
+msgid ""
+"This error is thrown when you try to create or update a object that contains "
+"one or more invalid properties that prevents it from being created or "
+"updated."
+msgstr ""
+
+#: includes/api/class-wtv-error-handling.php:48
+msgid ""
+"This error is thrown when you try to make requests towards a company that "
+"hasnt completed the startup guide in Visma eAccounting."
+msgstr ""
+
+#: includes/api/class-wtv-error-handling.php:52
+msgid ""
+"This error is thrown when you try to make requests towards an inactive "
+"company."
+msgstr ""
+
+#: includes/api/class-wtv-error-handling.php:56
+msgid ""
+"This error is thrown when you try to make unauthorized requests towards the "
+"API."
+msgstr ""
+
+#: includes/api/class-wtv-error-handling.php:60
+msgid ""
+"This error is thrown when you try to make requests towards an endpoint which "
+"require scopes that you are not authorized with."
+msgstr ""
+
+#: includes/api/class-wtv-error-handling.php:64
+msgid ""
+"This error is thrown when you try to make requests with an authorized user "
+"that does not have sufficient permissions for that specific endpoint."
+msgstr ""
+
+#: includes/api/class-wtv-error-handling.php:68
+msgid ""
+"This error is thrown when you try to make a request towards an endpoint with "
+"ControlDigit validation and the value is invalid."
+msgstr ""
+
+#: includes/api/class-wtv-error-handling.php:72
+msgid ""
+"This error is thrown when you try to make requests towards and endpoint that "
+"is not included in the authorized companys product variant."
+msgstr ""
+
+#: includes/api/class-wtv-error-handling.php:76
+msgid ""
+"This error is thrown when you try to more requests than allowed. Read more "
+"about this here."
+msgstr ""
+
+#: includes/api/class-wtv-error-handling.php:80
+msgid ""
+"This error is thrown when the authenticated user does not have access to "
+"eAccounting for this company.Give the user access to eAccounting or "
+"reauthenticate with a user that have access to eAccounting to solve the "
+"issue."
+msgstr ""
+
+#: includes/api/class-wtv-error-handling.php:84
+msgid ""
+"This error is thrown when the authenticated user does not have accepted the "
+"licence agreement for eAccounting for this company.The licence agreement can "
+"be accepted by logging in to eAccounting with the same user and company."
+msgstr ""
+
+#: includes/api/class-wtv-error-handling.php:88
+msgid ""
+"This error is thrown when the process of bookkeeping the invoice is "
+"interrupted by validations like locked fiscal year or accounting period."
+msgstr ""
+
+#: includes/api/class-wtv-error-handling.php:92
+msgid ""
+"This error is thrown when Norwegian companies lack YourReference when "
+"sending customer invoices with AutoInvoice."
+msgstr ""
+
+#: includes/api/class-wtv-error-handling.php:96
+msgid ""
+"This error is thrown when sending customer invoices with AutoInvoice and the "
+"customer requires a reference code, which is missing."
+msgstr ""
+
+#: includes/api/class-wtv-error-handling.php:100
+msgid ""
+"This error is thrown when a invalid invoice date is applied to a supplier "
+"invoice."
+msgstr ""
+
+#: includes/api/class-wtv-error-handling.php:104
+msgid ""
+"This error is thrown when sending customer invoices with AutoInvoice and "
+"electronic address is missing on the customer."
+msgstr ""
+
+#: includes/api/class-wtv-error-handling.php:108
+msgid ""
+"This error is thrown when you try to create a supplier invoices with a "
+"future date without having the \"pay manually\" setting active."
+msgstr ""
+
+#: includes/api/class-wtv-error-handling.php:112
+msgid ""
+"This error is thrown when you are authenticated with a readonly user and "
+"trying to create/edit/delete an entity."
+msgstr ""
+
+#: includes/api/class-wtv-error-handling.php:116
+msgid ""
+"This error is thrown when you are trying to create a fiscal year which "
+"overlaps another one."
+msgstr ""
+
+#: includes/api/class-wtv-error-handling.php:120
+msgid ""
+"This error is thrown when you are trying to create a fiscal year with a "
+"number of months which exceeds the maximum allowed for the specific country."
+msgstr ""
+
+#: includes/api/class-wtv-error-handling.php:124
+msgid ""
+"This error is thrown when you are trying to create a fiscal year which "
+"doesnt end in the last day of a month."
+msgstr ""
+
+#: includes/api/class-wtv-error-handling.php:128
+msgid ""
+"This error is thrown when a validation from an external service is thrown"
+msgstr ""
+
+#: includes/api/class-wtv-error-handling.php:132
+msgid ""
+"This error is thrown when you encounter a error that we have not handled on "
+"our side. This can occur if there is a bug in eAccounting. These errors "
+"should be reported to us at eaccountingapi@visma,com."
+msgstr ""
+
+#: includes/api/class-wtv-error-handling.php:136
+msgid ""
+"This error is thrown when you make a request towards and endpoint with "
+"external service dependencies, and that dependency is not answering in time."
+"This can occur if a service is down."
+msgstr ""
+
+#: includes/api/class-wtv-error-handling.php:140
+msgid ""
+"This error is thrown when you encounter a error that we have not handled on "
+"our side. These errors should be reported to us at eaccountingapi@visma.com."
+msgstr ""
+
+#: includes/api/class-wtv-error-handling.php:144
+msgid ""
+"This error is thrown when an article cannot be changed to non stock article "
+"because it has non zero stock balance."
+msgstr ""
+
+#: includes/api/class-wtv-error-handling.php:148
+msgid ""
+"This error is thrown when a stock article cannot be changed to service type "
+"article because it has non zero stock balance."
+msgstr ""
+
+#: includes/api/class-wtv-error-handling.php:152
+msgid ""
+"This error is thrown when you make a request with $filter parameters and the "
+"query is invalid."
+msgstr ""
+
+#: includes/api/class-wtv-error-handling.php:156
+msgid ""
+"This error is thrown when you make a request with DateTime properties or "
+"filtering and the provided format is wrong."
+msgstr ""
+
+#: includes/api/class-wtv-error-handling.php:160
+msgid "This error is thrown when the API module is not activated in Visma."
+msgstr ""
+
+#: includes/api/class-wtv-invoices.php:174
+msgid "Invalid Visma API response."
+msgstr ""
+
+#: includes/api/class-wtv-orders.php:220 includes/api/class-wtv-orders.php:411
+msgid "Order finns ej i Visma eEkonomi"
+msgstr "Bestillinger er ikke tilgjengelig i Visma eEkonomi"
+
+#: includes/api/class-wtv-orders.php:514
+msgid "Produkt ID {$product_id} saknar SKU."
+msgstr "Produkt-id {$product_id} mangler SKU."
+
+#: includes/api/class-wtv-orders.php:547
+msgid "Visma: Order synkroniserad, ID: "
+msgstr "Visma: Ordre synkronisert, ID: "
+
+#: includes/api/class-wtv-orders.php:547
+msgid "Visma: Verifikation skapad"
+msgstr "Visma: Regnskapsverifisering opprettet"
+
+#: includes/api/class-wtv-partial-refund-orders.php:48
+msgid "Retur hanterad i Visma"
+msgstr "Retur håndteres i Visma"
+
+#: includes/api/class-wtv-products.php:134
+#: includes/api/class-wtv-products.php:151
+msgid "Produkt finns ej i Visma eEkonomi"
+msgstr "Produktet er ikke tilgjengelig i Visma eEkonomi"
+
+#: includes/api/class-wtv-products.php:244
+#: includes/api/class-wtv-products.php:371
+#: includes/api/class-wtv-products.php:404
+msgid "Produkt ID {$wc_product_id} saknar SKU."
+msgstr "Produkt-id {$product_id} mangler SKU."
+
+#: includes/api/class-wtv-refund-invoices.php:67
+msgid "Retur hanterad i Visma, ID: "
+msgstr "Retur håndteres i Visma, ID: "
+
+#: includes/api/class-wtv-visma-settings.php:35
+msgid "Hämtning av inställningar från Visma misslyckades"
+msgstr "Nedlasting av innstillinger fra Visma mislyktes"
+
+#: includes/api/class-wtv-visma-settings.php:130
+msgid "Standardenhet saknas. Hämta inställningar från Visma"
+msgstr "Standardenhet mangler. Last ned innstillinger fra Visma"
+
+#: includes/api/class-wtv-visma-settings.php:152
+msgid "Artikelkontering saknas. Hämta inställningar från Visma"
+msgstr "Vareregnskap mangler. Last ned innstillinger fra Visma"
+
+#: includes/api/class-wtv-visma-settings.php:192
+msgid "Konto saknas. Hämta inställningar från Visma"
+msgstr "Konto mangler. Last ned innstillinger fra Visma"
+
+#: includes/api/class-wtv-vouchers.php:159
+msgid "Verifikation finns ej i Visma"
+msgstr "Regnskapsverifisering er ikke tilgjengelig i Visma"
+
+#: includes/api/class-wtv-vouchers.php:169
+msgid "Räkenskapsår för orderns datum kunde ej hittas"
+msgstr "Regnskapsår for bestillingsdato ble ikke funnet"
+
+#: includes/class-wtv-admin-actions.php:24
+msgid "Inställningar hämtade från Visma."
+msgstr "Innstillinger hentet fra Visma."
+
+#: includes/class-wtv-admin-actions.php:37
+msgid "Inga ordrar hittades i intervallet."
+msgstr "Ingen bestillinger funnet i rekkevidde."
+
+#: includes/class-wtv-admin-actions.php:78
+msgid "Inga produkter finns tillgängliga."
+msgstr "Ingen produkter er tilgjengelige."
+
+#: includes/class-wtv-admin-actions.php:126
+#: includes/class-wtv-admin-actions.php:171
+msgid "Order har synkroniserats."
+msgstr "Ordren er synkronisert."
+
+#: includes/class-wtv-admin-actions.php:184
+msgid "Produkt ID saknas."
+msgstr "Produkt-ID mangler."
+
+#: includes/class-wtv-admin-actions.php:200
+msgid "Produkt har synkroniserats."
+msgstr "Produktet er synkronisert."
+
+#: includes/class-wtv-ajax.php:85
+msgid "Order ID saknas."
+msgstr "Bestillings-ID mangler."
+
+#: includes/class-wtv-ajax.php:96
+msgid "Ogiltig action."
+msgstr "Ugyldig handling."
+
+#: includes/class-wtv-ajax.php:117
+msgid "Licensnyckel saknas"
+msgstr "Lisensnøkkel mangler"
+
+#: includes/class-wtv-ajax.php:120
+msgid "Licensnyckeln är giltig."
+msgstr "Lisensnøkkelen er gyldig."
+
+#: includes/class-wtv-ajax.php:122
+msgid "Wetail licensnyckel är ogiltig"
+msgstr "Wetail lisensnøkkel er ugyldig"
+
+#: includes/class-wtv-plugin.php:122
+msgid "Visma inställningar"
+msgstr "Visma-innstillinger"
+
+#: includes/class-wtv-plugin.php:123
+#: includes/views/class-wtv-general-settings-view.php:39
+#: includes/views/class-wtv-visma-invoice-widget.php:81
+msgid "Visma"
+msgstr "Visma"
+
+#: includes/class-wtv-plugin.php:157
+msgid "Faktura"
+msgstr "Faktura"
+
+#: includes/class-wtv-plugin.php:158
+msgid "Invoice issue"
+msgstr "Utstedelse av faktura"
+
+#: includes/class-wtv-plugin.php:198
+msgid ""
+"Visma: Det saknas inställningar för att kopplingen ska fungera korrekt. "
+msgstr "Visma: Innstillinger mangler for at tilkoblingen skal fungere riktig. "
+
+#: includes/class-wtv-plugin.php:200 includes/class-wtv-plugin.php:214
+#: includes/class-wtv-plugin.php:228
+msgid "Gå till inställningar"
+msgstr "Gå til Innstillinger"
+
+#: includes/class-wtv-plugin.php:212
+msgid ""
+"Det saknas inställningar som måste hämtas från Visma klicka på \"Update "
+"Settings\". "
+msgstr ""
+"Det mangler innstillinger som må lastes ned fra Visma, klikk \"Oppdater "
+"innstillinger\". "
+
+#: includes/class-wtv-plugin.php:226
+msgid "Sessionen har gått ut, logga in i Visma igen. "
+msgstr "Økten er utløpt, logg inn på Visma igjen "
+
+#: includes/class-wtv-plugin.php:258
+msgid "Ordern har synkroniserats"
+msgstr "Ordren er synkronisert"
+
+#: includes/class-wtv-plugin.php:258
+msgid "Ordern har inte synkroniserats"
+msgstr "Ordren er synkronisert"
+
+#: includes/class-wtv-plugin.php:301
+msgid "Produkten har synkroniserats"
+msgstr "Produktet er synkronisert"
+
+#: includes/class-wtv-plugin.php:351 includes/class-wtv-plugin.php:370
+#: includes/class-wtv-plugin.php:371
+#: includes/views/class-wtv-sync-settings-view.php:280
+msgid "Organisationsnummer"
+msgstr "Organisasjonsnummer"
+
+#: includes/class-wtv-plugin.php:382
+msgid "Spara"
+msgstr "Lagre"
+
+#: includes/class-wtv-settings-validator.php:240
+msgid "Visma: Inställningar saknas för "
+msgstr "Visma: Innstillinger mangler for "
+
+#: includes/class-wtv-settings-validator.php:245
+msgid "Visma: Bokföringskonto saknas för betalsätt "
+msgstr "Visma: Regnskapskonto mangler for betalingsmåte "
+
+#: includes/class-wtv-settings-validator.php:249
+msgid "Visma: Verifikationsserie saknas för betalsätt "
+msgstr "Visma: Verifikasjonsserie mangler for betalingsmåte "
+
+#: includes/class-wtv-settings-validator.php:254
+msgid "Visma: Order status saknas för betalsätt "
+msgstr "Visma: Ordrestatus mangler for betalingsmåte "
+
+#: includes/class-wtv-settings-validator.php:258
+msgid "Visma: Betalningsvillkor saknas för betalsätt"
+msgstr "Visma: Betalingsbetingelser mangler for betalingsmåte"
+
+#: includes/class-wtv-settings-validator.php:263
+msgid ""
+"Visma: När en order ska konverteras till faktura måste order vara satt på "
+"status SKICKAD. Byt order status i Visma inställnignarna för betalmetod "
+msgstr ""
+"Visma: Når en ordre skal konverteres til en faktura, må ordren settes til "
+"status SENDT. Endre ordrestatus i Visma-innstillinger for betalingsmåte "
+
+#: includes/class-wtv-settings-validator.php:269
+msgid "Visma: Det går ej att skapa en betalning om ordern ej fakturerats "
+msgstr ""
+"Visma: Det er ikke mulig å opprette en betaling dersom bestillingen ikke er "
+"fakturert "
+
+#: includes/class-wtv-settings-validator.php:274
+msgid "Visma: Det saknas inställningar för att synkronisera ordrar "
+msgstr "Visma: Innstillinger for synkronisering av bestillinger mangler "
+
+#: includes/http/class-wtv-request.php:64
+#: includes/http/class-wtv-request.php:114
+#: includes/http/class-wtv-request.php:145
+#: includes/http/class-wtv-request.php:173
+msgid "Licensnyckel saknas eller är ogiltig."
+msgstr "Lisensnøkkel mangler eller er ugyldig."
+
+#: includes/views/class-wtv-accounting-settings-view.php:27
+msgid "Bokföring"
+msgstr "Regnskap"
+
+#: includes/views/class-wtv-accounting-settings-view.php:35
+msgid "Momskonton"
+msgstr "MVA kontoer"
+
+#: includes/views/class-wtv-accounting-settings-view.php:36
+msgid "Konton för olika momssatser."
+msgstr "Regner med ulike mva-satser."
+
+#: includes/views/class-wtv-accounting-settings-view.php:47
+msgid "Konto, utgående moms 25% Sverige"
+msgstr "Konto, utgående mva 25% Sverige. Skal ikke brukes til Norge"
+
+#: includes/views/class-wtv-accounting-settings-view.php:48
+msgid "Kontot för produkter med 25% moms i Sverige"
+msgstr ""
+"Kontoen for produkter med 25 % mva i Sverige. Skal ikke brukes til Norge."
+
+#: includes/views/class-wtv-accounting-settings-view.php:59
+msgid "Konto, utgående moms 12% Sverige"
+msgstr "Konto, utgående mva 12% Sverige. Skal ikke brukes til Norge"
+
+#: includes/views/class-wtv-accounting-settings-view.php:60
+msgid "Kontot för produkter med 12% moms i Sverige"
+msgstr ""
+"Kontoen for produkter med 12 % mva i Sverige. Skal ikke brukes til Norge."
+
+#: includes/views/class-wtv-accounting-settings-view.php:71
+msgid "Konto, utgående moms 6% Sverige"
+msgstr "Konto, utgående mva 12% Sverige. Skal ikke brukes til Norge"
+
+#: includes/views/class-wtv-accounting-settings-view.php:72
+msgid "Kontot för produkter med 6% moms i Sverige"
+msgstr ""
+"Kontoen for produkter med 6 % mva i Sverige. Skal ikke brukes til Norge."
+
+#: includes/views/class-wtv-accounting-settings-view.php:83
+msgid "Konto, utgående moms 25% EU"
+msgstr "Konto, utgående mva 25% EU. Skal ikke brukes til Norge"
+
+#: includes/views/class-wtv-accounting-settings-view.php:84
+#: includes/views/class-wtv-sync-settings-view.php:293
+msgid "Kontot för produkter med 25% moms i EU"
+msgstr "Kontoen for produkter med 25 % mva EU. Skal ikke brukes til Norge."
+
+#: includes/views/class-wtv-accounting-settings-view.php:95
+msgid "Konto, utgående moms 12% EU"
+msgstr "Konto, utgående mva 12% EU. Skal ikke brukes til Norge"
+
+#: includes/views/class-wtv-accounting-settings-view.php:96
+msgid "Kontot för produkter med 12% moms i EU"
+msgstr "Kontoen for produkter med 12 % mva EU. Skal ikke brukes til Norge."
+
+#: includes/views/class-wtv-accounting-settings-view.php:107
+msgid "Konto, utgående moms 6% EU"
+msgstr "Konto, utgående mva 6% EU. Skal ikke brukes til Norge"
+
+#: includes/views/class-wtv-accounting-settings-view.php:108
+msgid "Kontot för produkter med 6% moms i EU"
+msgstr "Kontoen for produkter med 6 % mva EU. Skal ikke brukes til Norge."
+
+#: includes/views/class-wtv-accounting-settings-view.php:117
+msgid "Fraktkonton"
+msgstr "Fraktregnskap"
+
+#: includes/views/class-wtv-accounting-settings-view.php:118
+msgid "Konton för olika fraktkonton."
+msgstr "Kontoer for ulike fraktkontoer."
+
+#: includes/views/class-wtv-accounting-settings-view.php:129
+msgid "Konto för frakt inom Sverige"
+msgstr "Konto for frakt innen Sverige"
+
+#: includes/views/class-wtv-accounting-settings-view.php:141
+msgid "Konto för frakt, EU"
+msgstr "Konto for frakt, EU"
+
+#: includes/views/class-wtv-accounting-settings-view.php:153
+msgid "Konto för frakt, världen"
+msgstr "Konto for frakt, verden"
+
+#: includes/views/class-wtv-accounting-settings-view.php:165
+msgid ""
+"I dina inställningar ser vi att du levererar till Sverige, detta "
+"bokföringskonto behövs då. Vanligt fraktkonto är 3520."
+msgstr ""
+"I dine innstillinger ser vi at du leverer til Sverige, denne "
+"regnskapskontoen er da nødvendig. Vanlig fraktkonto er 3520."
+
+#: includes/views/class-wtv-accounting-settings-view.php:166
+msgid ""
+"I dina inställningar ser vi att du levererar till EU, detta bokföringskonto "
+"behövs då. Vanligt fraktkonto är 3521."
+msgstr ""
+"I innstillingene dine ser vi at du leverer til EU, denne regnskapskontoen er "
+"da nødvendig. Vanlig fraktkonto er 3521."
+
+#: includes/views/class-wtv-accounting-settings-view.php:167
+msgid ""
+"I dina inställningar ser vi att du levererar till resten av världen, detta "
+"bokföringskonto behövs då."
+msgstr ""
+"I innstillingene dine ser vi at du leverer til resten av verden, denne "
+"regnskapskontoen er da nødvendig."
+
+#: includes/views/class-wtv-bulk-settings-view.php:19
+#: includes/views/class-wtv-bulk-settings-view.php:27
+msgid "Massändringar"
+msgstr "Masseendringer"
+
+#: includes/views/class-wtv-bulk-settings-view.php:28
+msgid ""
+"Användbara masshanteringalternativ som kan användas retroaktivt mellan "
+"WooCommerce och Visma."
+msgstr ""
+"Nyttige masseadministrasjonsalternativer som kan brukes med tilbakevirkende "
+"kraft mellom WooCommerce og Visma."
+
+#: includes/views/class-wtv-bulk-settings-view.php:34
+#: includes/views/class-wtv-bulk-settings-view.php:49
+msgid "Synkronisera produkter till Visma"
+msgstr "Synkroniser produkter til Visma"
+
+#: includes/views/class-wtv-bulk-settings-view.php:37
+msgid "Synkronisera produkter"
+msgstr "Synkroniser produkter"
+
+#: includes/views/class-wtv-bulk-settings-view.php:56
+msgid "Synkronisera ordrar till Visma"
+msgstr "Synkroniser ordrer til Visma"
+
+#: includes/views/class-wtv-bulk-settings-view.php:59
+msgid "Synkronisera ordrar"
+msgstr "Synkroniser ordrer"
+
+#: includes/views/class-wtv-bulk-settings-view.php:71
+msgid "Synkronisera ordrar i datumintervall till Visma."
+msgstr "Synkroniser ordrer i datoperioder til Visma."
+
+#: includes/views/class-wtv-general-settings-view.php:24
+#: includes/views/class-wtv-product-settings-view.php:26
+msgid "Allmänt"
+msgstr "Generell"
+
+#: includes/views/class-wtv-general-settings-view.php:47
+msgid "Wetail licensnyckel"
+msgstr "Wetail lisensnøkkel"
+
+#: includes/views/class-wtv-general-settings-view.php:48
+msgid ""
+"Din Wetail licensnyckel som du fått i bekräftelsemailet på din order.<br>Om "
+"du inte har tecknat ett abonnemang än, använd <a href=\"https://wetail.io/"
+"service/integrationer/woocommerce-visma/\" target=\"_blank\">denna länk</a>."
+msgstr ""
+"Din Wetail-lisensnøkkel som du mottok i e-postbekreftelsen for bestillingen "
+"din.<br>Hvis du ikke har abonnert ennå, bruk <a href=\"https://wetail.io/"
+"service/integrationer/woocommerce-visma/\" target=\"_blank\">denne lenken</"
+"a>."
+
+#: includes/views/class-wtv-general-settings-view.php:50
+msgid "Spara och kontrollera"
+msgstr "Lagre og sjekk"
+
+#: includes/views/class-wtv-general-settings-view.php:64
+msgid "Koppla ihop med Visma"
+msgstr "Logg inn på Visma"
+
+#: includes/views/class-wtv-general-settings-view.php:66
+#, php-format
+msgid ""
+"För att du ska kunna interagera med Visma måste du först registrera en så "
+"kallad \"Callback URL\". Detta gör du genom att skicka <a href=\"mailto:"
+"%s\">detta mail</a> till dem. Vänligen invänta svar från dem (brukar ta max "
+"en arbetsdag) innan du försöker logga in."
+msgstr ""
+"For å kunne samhandle med Visma må du først registrere en såkalt «Callback "
+"URL». Du gjør dette ved å sende <a href=\"mailto:%s\">denne e-posten</a> til "
+"dem. Vennligst vent på svar fra dem (tar vanligvis maksimalt én virkedag) "
+"før du prøver å logge på."
+
+#: includes/views/class-wtv-general-settings-view.php:68
+msgid "Logga in"
+msgstr "Logg inn"
+
+#: includes/views/class-wtv-general-settings-view.php:82
+msgid "Hämta inställningar från Visma"
+msgstr "Last ned innstillinger fra Visma"
+
+#: includes/views/class-wtv-general-settings-view.php:85
+msgid "Hämta"
+msgstr "Last ned"
+
+#: includes/views/class-wtv-general-settings-view.php:93
+msgid ""
+"Varje inloggning till Visma är endast giltig en begränsad tid. Om du inte "
+"hämtar inställningarna innan dess måste du logga in igen."
+msgstr ""
+"Hver pålogging til Visma er kun gyldig i en begrenset periode. Hvis du ikke "
+"henter innstillingene før da, må du logge inn på nytt."
+
+#: includes/views/class-wtv-general-settings-view.php:108
+msgid "Debuggning"
+msgstr "Feilsøking"
+
+#: includes/views/class-wtv-general-settings-view.php:112
+msgid "Aktivera loggning"
+msgstr "Aktiver logging"
+
+#: includes/views/class-wtv-general-settings-view.php:113
+msgid "Ej nödvändigt loggande kan belasta dina systemresurser."
+msgstr "Unødvendig logging kan belaste systemressursene dine."
+
+#: includes/views/class-wtv-general-settings-view.php:113
+msgid "Stäng av när du inte debuggar!"
+msgstr "Slå av når du ikke feilsøker!"
+
+#: includes/views/class-wtv-general-settings-view.php:113
+msgid ""
+"Debug-loggen finns under <b>WooCommerce</b> -> <b>Status</b> -> <b>Loggar</b>"
+msgstr ""
+"Feilsøkingsloggen finner du under <b>WooCommerce</b> -> <b>Status</b> -> "
+"<b>Logger</b>"
+
+#: includes/views/class-wtv-general-settings-view.php:117
+msgid "Sandbox"
+msgstr "Sandbox"
+
+#: includes/views/class-wtv-general-settings-view.php:118
+msgid ""
+"Skicka data till din test-miljö istället för din riktiga bokföring (kräver "
+"att denna miljö är aktiverad hos Visma)."
+msgstr ""
+"Send data til ditt testmiljø i stedet for ditt ekte regnskap (krever at "
+"dette miljøet er aktivert hos Visma)."
+
+#: includes/views/class-wtv-product-fields.php:79
+#: includes/views/class-wtv-product-fields.php:96
+msgid "Visma produkt ID"
+msgstr "Visma produkt ID"
+
+#: includes/views/class-wtv-product-settings-view.php:19
+msgid "Produktinställningar"
+msgstr "Produktinnstillinger"
+
+#: includes/views/class-wtv-product-settings-view.php:37
+msgid "Synkronisera produkter vid uppdatering"
+msgstr "Synkroniser produkter ved oppdatering"
+
+#: includes/views/class-wtv-product-settings-view.php:38
+msgid ""
+"När helst en produkt ändras i WooCommerce produktvy kommer ändringen att "
+"reflekteras i Visma."
+msgstr ""
+"Hver gang et produkt endres i WooCommerce-produktvisningen, vil endringen "
+"gjenspeiles i Visma."
+
+#: includes/views/class-wtv-product-settings-view.php:42
+msgid "Synkronisera även förälderprodukten för variationer"
+msgstr "Synkroniser også det overordnede produktet for varianter"
+
+#: includes/views/class-wtv-product-settings-view.php:43
+msgid ""
+"När detta alternativ är valt kommer även förälderprodukten till en variation "
+"att synkroniseras, även om den inte finns i Visma från början."
+msgstr ""
+"Når dette alternativet er valgt, vil det overordnede produktet til en "
+"variant også synkroniseres, selv om det ikke er i Visma i utgangspunktet."
+
+#: includes/views/class-wtv-product-settings-view.php:47
+msgid "Uppdatera exist. produkt i Visma vid ordersynkronisering"
+msgstr "Oppdater eksisterende. produkt i Visma under ordresynkronisering"
+
+#: includes/views/class-wtv-product-settings-view.php:52
+msgid "Synkronisera ej variationer, bara förälderprodukten"
+msgstr "Ikke synkroniser varianter, bare det overordnede produktet"
+
+#: includes/views/class-wtv-product-settings-view.php:53
+msgid ""
+"När detta alternativ är valt kommer enbart förälderrodukten att "
+"synkroniseras."
+msgstr ""
+"Når dette alternativet er valgt, vil bare det overordnede produktet bli "
+"synkronisert."
+
+#: includes/views/class-wtv-product-settings-view.php:57
+msgid "Uppdatera ej pris vid synk"
+msgstr "Ikke oppdater pris ved synkronisering"
+
+#: includes/views/class-wtv-product-settings-view.php:58
+msgid ""
+"Normalt sett kommer en prisuppdatering i WooCommerce att uppdatera priset "
+"även i Visma. Denna inställning kommer att ignorera prisändringar i "
+"WooCommerce (ordrar där produktpriset skiljer sig åt kommer dock att använda "
+"sig av priset från WooCommerce)."
+msgstr ""
+"Normalt vil en prisoppdatering i WooCommerce også oppdatere prisen i Visma. "
+"Denne innstillingen vil ignorere prisendringer i WooCommerce (bestillinger "
+"der produktprisen er forskjellig vil imidlertid bruke prisen fra "
+"WooCommerce)."
+
+#: includes/views/class-wtv-product-settings-view.php:62
+msgid "Skapa ett SKU automatiskt för produkter som saknar SKU"
+msgstr "Opprett en SKU automatisk for produkter som ikke har en SKU"
+
+#: includes/views/class-wtv-product-settings-view.php:63
+msgid ""
+"Artiklar i Visma kräver artikelnummer. Om en order i WooCommerce innehåller "
+"produkter utan artikelnummer kommer det här alternativet att se till att ett "
+"artikelnummer genereras baserat på deras titel."
+msgstr ""
+"Artikler i Visma krever artikkelnummer. Hvis en ordre i WooCommerce "
+"inneholder produkter uten varenumre, vil dette alternativet sørge for at det "
+"genereres et varenummer basert på deres tittel."
+
+#: includes/views/class-wtv-sync-settings-view.php:112
+msgid "Utkast"
+msgstr "Utkast"
+
+#: includes/views/class-wtv-sync-settings-view.php:116
+msgid "Pågående"
+msgstr "Pågående"
+
+#: includes/views/class-wtv-sync-settings-view.php:120
+msgid "Skickad"
+msgstr "Sendt"
+
+#: includes/views/class-wtv-sync-settings-view.php:129
+msgid "Ja"
+msgstr "Ja"
+
+#: includes/views/class-wtv-sync-settings-view.php:133
+msgid "Nej"
+msgstr "Nei"
+
+#: includes/views/class-wtv-sync-settings-view.php:149
+msgid "Synkronisering"
+msgstr "Synkronisering"
+
+#: includes/views/class-wtv-sync-settings-view.php:156
+msgid "Synkroniseringsflöde"
+msgstr "Synkroniser flyt"
+
+#: includes/views/class-wtv-sync-settings-view.php:165
+msgid ""
+"Här väljer du om du vill skapa bokföringsverifikationer eller ordrar i Visma"
+msgstr ""
+"Her velger du om du vil opprette regnskapsverifikasjoner eller bestillinger "
+"i Visma"
+
+#: includes/views/class-wtv-sync-settings-view.php:169
+msgid "Skapa bokföringsverifikationer i Visma"
+msgstr "Lag regnskapsverifikasjoner i Visma"
+
+#: includes/views/class-wtv-sync-settings-view.php:173
+msgid "Skapar ordrar i Visma"
+msgstr "Oppretter bestillinger i Visma"
+
+#: includes/views/class-wtv-sync-settings-view.php:183
+msgid "Betalsätt"
+msgstr "Betalingsmetoder"
+
+#: includes/views/class-wtv-sync-settings-view.php:206
+msgid "Synkronisera på status"
+msgstr "Synkroniser på status"
+
+#: includes/views/class-wtv-sync-settings-view.php:207
+msgid ""
+"Välj en orderstatus som du vill ska initiera en synkning av ordern. "
+"Observera att detta inte berör ordrar som redan har denna status, dessa "
+"måste synkroniseras manuellt. <br><br>Om du inte väljer en status här kommer "
+"ingen automatisk synkronisering att ske utan enbart manull synkronisering är "
+"möjlig."
+msgstr ""
+"Velg en ordrestatus som du vil starte en synkronisering av bestillingen. "
+"Merk at dette ikke påvirker bestillinger som allerede har denne statusen, "
+"disse må synkroniseres manuelt. <br><br>Hvis du ikke velger en status her, "
+"vil ingen automatisk synkronisering skje, kun manuell synkronisering er "
+"mulig."
+
+#: includes/views/class-wtv-sync-settings-view.php:213
+msgid "Bokföringskonto"
+msgstr "Regnskapskonto"
+
+#: includes/views/class-wtv-sync-settings-view.php:214
+#: includes/views/class-wtv-sync-settings-view.php:391
+msgid ""
+"Välj det bokföringskonto du vill att ordern ska bokföras mot när den "
+"markeras som betald."
+msgstr ""
+"Välj det bokföringskonto du vill att ordern ska bokföras mot när den "
+"markeras som betald."
+
+#: includes/views/class-wtv-sync-settings-view.php:220
+msgid "Verifikationsserie"
+msgstr "Verifikasjonsserie"
+
+#: includes/views/class-wtv-sync-settings-view.php:221
+msgid ""
+"Välj den serie som verifikatet ska bokföras i. Du kan även välja att inte "
+"bokföra verifikatet alls."
+msgstr ""
+"Velg serien som bilaget skal legges ut i. Du kan også velge å ikke legge ut "
+"bilaget i det hele tatt."
+
+#: includes/views/class-wtv-sync-settings-view.php:227
+msgid "Betalvillkor"
+msgstr "Betalingsbetingelser"
+
+#: includes/views/class-wtv-sync-settings-view.php:228
+msgid "Välj det betalvillkor som ska gälla för den utställda fakturan."
+msgstr "Velg betalingsbetingelsene som skal gjelde for den utstedte fakturaen."
+
+#: includes/views/class-wtv-sync-settings-view.php:234
+msgid "Sätt till status i Visma"
+msgstr "Legg til status i Visma"
+
+#: includes/views/class-wtv-sync-settings-view.php:235
+msgid "Välj den status som ordern ska sättas till i Visma."
+msgstr "Velg status som ordren skal settes til i Visma."
+
+#: includes/views/class-wtv-sync-settings-view.php:241
+msgid "Gör order till faktura"
+msgstr "Gjør ordre til faktura"
+
+#: includes/views/class-wtv-sync-settings-view.php:242
+msgid "Konvertera order till faktura. Kräver att ordern har status skickad."
+msgstr "Konverter ordre til faktura. Krever at bestillingen har status sendt."
+
+#: includes/views/class-wtv-sync-settings-view.php:248
+msgid "Sätt faktura som betald"
+msgstr "Sett faktura som betalt"
+
+#: includes/views/class-wtv-sync-settings-view.php:249
+msgid ""
+"Du kan välja att automatiskt registrera en full inbetalning mot det konto "
+"som anges nedan i <br><i><b\">Bankkonto som används för inbetalningar</b></"
+"i>."
+msgstr ""
+"Du kan velge å automatisk registrere et fullt innskudd på kontoen som er "
+"oppført nedenfor i <br><i><b\">Bankkonto som brukes til innskudd</b></i>."
+
+#: includes/views/class-wtv-sync-settings-view.php:263
+msgid "Kund identifikator"
+msgstr "Kundeidentifikator"
+
+#: includes/views/class-wtv-sync-settings-view.php:272
+msgid "Här väljer du hur en kund ska identifieras i Visma"
+msgstr "Her velger du hvordan en kunde skal identifiseres i Visma"
+
+#: includes/views/class-wtv-sync-settings-view.php:276
+msgid "Email"
+msgstr "E-post"
+
+#: includes/views/class-wtv-sync-settings-view.php:292
+msgid "Metafältsnamn för organisationsnummer "
+msgstr "Metafeltnavn for organisasjonsnummer"
+
+#: includes/views/class-wtv-sync-settings-view.php:301
+#: includes/views/class-wtv-sync-settings-view.php:324
+msgid "Övrigt"
+msgstr "Diverse"
+
+#: includes/views/class-wtv-sync-settings-view.php:314
+msgid "Orderprefix"
+msgstr "Ordreprefiks"
+
+#: includes/views/class-wtv-sync-settings-view.php:315
+msgid "Orderprefix som läggs till framför WooCommerce ordernummer vid synk."
+msgstr ""
+"Ordreprefiks lagt til foran WooCommerce-bestillingsnummer ved synkronisering."
+
+#: includes/views/class-wtv-sync-settings-view.php:328
+msgid "Skapa krediteringverifikation när order krediterats"
+msgstr "Opprett kredittbekreftelse når bestillingen er kreditert"
+
+#: includes/views/class-wtv-sync-settings-view.php:332
+msgid "Visa organisationsnummerfält i kassan"
+msgstr "Vis organisasjonsnummerfeltet i kassen"
+
+#: includes/views/class-wtv-sync-settings-view.php:333
+msgid "Visar ett extra fält i kassaformuläret för organisationsnummer."
+msgstr "Viser et ekstra felt i kassaskjemaet for organisasjonsnummer."
+
+#: includes/views/class-wtv-sync-settings-view.php:338
+msgid "Gör organisationsnummerfältet obligatoriskt"
+msgstr "Gjør organisasjonsnummerfeltet obligatorisk"
+
+#: includes/views/class-wtv-sync-settings-view.php:342
+msgid "Uppdatera ej kund vid ordersynkronisering"
+msgstr "Ikke oppdater kunden under ordresynkronisering"
+
+#: includes/views/class-wtv-sync-settings-view.php:358
+msgid "Retur inställningar"
+msgstr "Retur indstillinger"
+
+#: includes/views/class-wtv-sync-settings-view.php:362
+msgid "Hantera returer"
+msgstr "Administrer returer"
+
+#: includes/views/class-wtv-sync-settings-view.php:363
+msgid ""
+"Skapar en kreditfaktura för ordrar som blivit fakturerade i Visma. Ordrar "
+"som ej blivit fakturerade i Visma ändras."
+msgstr ""
+"Oppretter en kreditfaktura for bestillinger som er fakturert i Visma. "
+"Bestillinger som ikke er fakturert i Visma endres."
+
+#: includes/views/class-wtv-sync-settings-view.php:367
+msgid "Sätt kreditfakturor som betalda"
+msgstr "Angi kredittfakturaer som betalte"
+
+#: includes/views/class-wtv-sync-settings-view.php:368
+msgid "När en kredit faktura skapas sätts den automatiskt som betald"
+msgstr "Når en kredittfaktura opprettes, settes den automatisk som betalt"
+
+#: includes/views/class-wtv-sync-settings-view.php:378
+msgid "Standard enhet"
+msgstr "Standard enhet"
+
+#: includes/views/class-wtv-sync-settings-view.php:388
+msgid "Bankkonto som används för inbetalningar"
+msgstr "Bankkonto brukt til betalinger"
+
+#: includes/views/class-wtv-sync-settings-view.php:472
+msgid "Manuell synkronisering"
+msgstr "Manuell synkronisering"
+
+#: includes/views/class-wtv-sync-settings-view.php:562
+#: includes/views/class-wtv-sync-settings-view.php:614
+#: includes/views/class-wtv-sync-settings-view.php:629
+msgid "Välj..."
+msgstr "Velge..."
+
+#: includes/views/class-wtv-visma-invoice-widget.php:50
+msgid "Failed to download PDF"
+msgstr ""
+
+#: includes/views/class-wtv-visma-invoice-widget.php:54
+msgid "No invoice found for requested order"
+msgstr ""
+
+#: includes/views/class-wtv-visma-invoice-widget.php:57
+msgid "Error occurred"
+msgstr ""
+
+#: includes/views/class-wtv-visma-invoice-widget.php:61
+msgid "Link expired"
+msgstr ""
+
+#: includes/views/class-wtv-visma-invoice-widget.php:97
+msgid "Se faktura"
+msgstr ""
+
+#: includes/views/class-wtv-visma-invoice-widget.php:116
+msgid "No action provided"
+msgstr ""
+
+#: includes/views/class-wtv-visma-invoice-widget.php:119
+msgid "Insufficient permissions"
+msgstr ""
+
+#: includes/views/class-wtv-visma-invoice-widget.php:125
+msgid "Invalid order id"
+msgstr ""
+
+#: includes/views/class-wtv-visma-invoice-widget.php:132
+msgid "No such order"
+msgstr ""
+
+#: includes/views/class-wtv-visma-invoice-widget.php:137
+msgid "No associated Visma order"
+msgstr ""
+
+#: includes/wetail/admin/class-wtv-settings.php:57
+msgid "General"
+msgstr "Generel"
+
+#: includes/wetail/admin/class-wtv-settings.php:59
+msgid "Spara ändringar"
+msgstr "Lagre endringer"
+
+#: includes/woo_api/class-wtv-callback-controller.php:40
+msgid "Something went wrong"
+msgstr "Noget gik galt"
+
+#. Plugin Name of the plugin/theme
+msgid "WooCommerce Visma integration"
+msgstr "WooCommerce Visma-integrasjon"
+
+#. Description of the plugin/theme
+msgid ""
+"Synkronisera kunder, produkter and och ordrar WooCommerce till Visma "
+"eEkonomi. Spara tid och pengar på minskad administration."
+msgstr ""
+"Synkroniser kunder, produkter og bestillinger fra WooCommerce til Visma "
+"eEkonomi. Spar tid og penger på redusert administrasjon."
+
+#. Author of the plugin/theme
+msgid "Wetail"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://wetail.io"
+msgstr ""
+
+#~ msgid "Retur hanterad i Visma,  Fakturanummer: "
+#~ msgstr "Retur behandlet i Visma, Fakturanummer: "
+
+#~ msgid "Retur hanterad i Visma,  Fakturanummer:"
+#~ msgstr "Retur behandlet i Visma, Fakturanummer:"
+
+#~ msgid "Visma settings"
+#~ msgstr "Visma-indstillinger"
+
+#~ msgid "Product has synchronized"
+#~ msgstr "Produktet er synkroniseret"
+
+#~ msgid "Product has not syncronized"
+#~ msgstr "Produktet er ikke synkroniseret"
+
+#~ msgid "Order has synchronized"
+#~ msgstr "Ordren er synkroniseret"
+
+#~ msgid "Order has not syncronized"
+#~ msgstr "Ordren er ikke synkroniseret"
+
+#, fuzzy
+#~| msgid "Order successfully synced."
+#~ msgid "Order refund successfully synced."
+#~ msgstr "Ordren er synkroniseret."
+
+#, fuzzy
+#~| msgid "Default settings"
+#~ msgid "Refund settings"
+#~ msgstr "Standardindstillinger"
+
+#~ msgid "Customer does not exist"
+#~ msgstr "Kunden findes ikke"
+
+#~ msgid "E-conomic settings fetch failed"
+#~ msgstr "Hentning af indstillinger mislykkedes"
+
+#~ msgid "Order does not exist"
+#~ msgstr "Ordren eksisterer ikke"
+
+#~ msgid "E-conomic: Invoice created"
+#~ msgstr "E-conomic: Faktura oprettet"
+
+#~ msgid "Initial settings updated."
+#~ msgstr "Oprindelige indstillinger opdateret."
+
+#~ msgid "Missing order ID."
+#~ msgstr "Manglende ordre-id."
+
+#~ msgid "Product successfully synced."
+#~ msgstr "Produktet er synkroniseret."
+
+#~ msgid "Invalid action specified."
+#~ msgstr "Ugyldig handling er angivet."
+
+#~ msgid "Synced %d articles."
+#~ msgstr "Synkroniserede %d artikler."
+
+#~ msgid "%d WooCommerce products are updated."
+#~ msgstr "%d WooCommerce-produkter er opdateret."
+
+#~ msgid "API-key is empty. Forgot to save changes?"
+#~ msgstr "API-nøglen er tom. Har du glemt at gemme ændringer?"
+
+#~ msgid "API-key is valid."
+#~ msgstr "API-nøgle er gyldig."
+
+#~ msgid "API-key is invalid."
+#~ msgstr "API-nøgle er ugyldig."
+
+#~ msgid "Settings are missing for payment method: "
+#~ msgstr "Indstillinger mangler for betalingsmetode:"
+
+#~ msgid "E-conomic settings"
+#~ msgstr "E-conomic indstillinger"
+
+#~ msgid "E-conomic"
+#~ msgstr "E-conomic"
+
+#~ msgid ""
+#~ "There are some settings missing. Please correct this to make the "
+#~ "integration work correctly. "
+#~ msgstr ""
+#~ "Der mangler nogle indstillinger. Ret venligst dette for at få "
+#~ "integrationen til at fungere korrekt."
+
+#~ msgid "Go to settings"
+#~ msgstr "Gå til indstillinger"
+
+#~ msgid ""
+#~ "There are some settings that need to be fetched from E-conomic. Please "
+#~ "click on \"Update Settings\". "
+#~ msgstr ""
+#~ "Der er nogle indstillinger, der skal hentes fra E-conomic. Klik venligst "
+#~ "på \"Opdater indstillinger\"."
+
+#~ msgid "Go to setting"
+#~ msgstr "Gå til indstilling"
+
+#~ msgid "Session is invalid, please login in to E-conomic again."
+#~ msgstr "Session is invalid, please log in to E-conomic again."
+
+#~ msgid "Sync changes to E-conomic"
+#~ msgstr "Synkroniser ændringer til E-conomic"
+
+#~ msgid "Save"
+#~ msgstr "Gemme"
+
+#~ msgid "Please select..."
+#~ msgstr "Vælg venligst..."
+
+#~ msgid "Bulk actions"
+#~ msgstr "Massehandlinger"
+
+#~ msgid ""
+#~ "Useful bulk actions to perform retroactively between WooCommerce and E-"
+#~ "conomic."
+#~ msgstr ""
+#~ "Nyttige massehandlinger til at udføre med tilbagevirkende kraft mellem "
+#~ "WooCommerce og E-conomic."
+
+#~ msgid "Sync products"
+#~ msgstr "Synkroniser produkter"
+
+#~ msgid ""
+#~ "Upload all products from WooCommerce to E-conomic. It may take a while to "
+#~ "synchronise large shops."
+#~ msgstr ""
+#~ "Upload alle produkter fra WooCommerce til E-conomic. Det kan tage et "
+#~ "stykke tid at synkronisere store butikker."
+
+#~ msgid "Sync inventory"
+#~ msgstr "Synkroniser beholdning"
+
+#~ msgid ""
+#~ "Update stock status from E-conomic. It may take a while to synchronise "
+#~ "large shops."
+#~ msgstr ""
+#~ "Opdater lagerstatus fra E-conomic. Det kan tage et stykke tid at "
+#~ "synkronisere store butikker."
+
+#~ msgid "Find missing products"
+#~ msgstr "Find manglende produkter"
+
+#~ msgid "Get a list of missing products in E-conomic."
+#~ msgstr "Få en liste over manglende produkter i E-conomic."
+
+#~ msgid "Sync all unsynchronized products to E-conomic"
+#~ msgstr "Synkroniser alle usynkroniserede produkter til E-conomic"
+
+#~ msgid "Sync all unsynchr. products"
+#~ msgstr "Synkroniser alle usynkr. produkter"
+
+#~ msgid "Sync all unsynchronized products to E-conomic."
+#~ msgstr "Synkroniser alle usynkroniserede produkter til E-conomic."
+
+#~ msgid "Customer Settings"
+#~ msgstr "Kundeindstillinger"
+
+#~ msgid "Default customer group, Denmark"
+#~ msgstr "Standard kundegruppe, Danmark"
+
+#~ msgid "Default customer group, EU"
+#~ msgstr "Standard kundegruppe, EU"
+
+#~ msgid "Default customer group, World"
+#~ msgstr "Standard kundegruppe, verden"
+
+#~ msgid "Default payment terms"
+#~ msgstr "Standard betalingsbetingelser"
+
+#~ msgid "License"
+#~ msgstr "Licens"
+
+#~ msgid "Log"
+#~ msgstr "Log"
+
+#~ msgid "Login"
+#~ msgstr "Log på"
+
+#~ msgid "Fetch settings from E-conomic"
+#~ msgstr "Hent indstillinger fra E-conomic"
+
+#~ msgid "E-conomic product group"
+#~ msgstr "E-conomic produktgruppe"
+
+#~ msgid "The E-conomic product group this product should be tied to"
+#~ msgstr ""
+#~ "Den E-conomic produktgruppe, som dette produkt skal være knyttet til"
+
+#~ msgid "Product settings"
+#~ msgstr "Produktindstillinger"
+
+#~ msgid "Enables defining an individual product group on each product"
+#~ msgstr ""
+#~ "Gør det muligt at definere en individuel produktgruppe på hvert produkt"
+
+#~ msgid "Do not update product on order sync"
+#~ msgstr "Opdater ikke produktet ved ordresynkronisering"
+
+#~ msgid "Create SKU automatically on products if SKU is missing"
+#~ msgstr "Opret SKU automatisk på produkter, hvis SKU mangler"
+
+#~ msgid "Synchronize products automatically"
+#~ msgstr "Synkroniser produkter automatisk"
+
+#~ msgid "Do not synchronize variations"
+#~ msgstr "Synkroniser ikke variationer"
+
+#~ msgid "Default product group"
+#~ msgstr "Standard produktgruppe"
+
+#~ msgid "Default unit"
+#~ msgstr "Standard enhed"
+
+#~ msgid ""
+#~ "Here you specify how orders should be created in e-conomic for each "
+#~ "active payment method in WooCommerce. Note that it requires the order "
+#~ "module in E-conomic"
+#~ msgstr ""
+#~ "Her er vrede, når du skal oprette en e-conomic for hver gang aktivt at "
+#~ "betale i WooCommerce. Bemærk at det kræver ordremoduler i E-conomic"
+
+#~ msgid "Name"
+#~ msgstr "Navn"
+
+#~ msgid "Create order"
+#~ msgstr "Opret ordre"
+
+#~ msgid "Set status as Sent"
+#~ msgstr "Indstil status som Sendt"
+
+#~ msgid "Create an Invoice from order"
+#~ msgstr "Opret en faktura fra ordre"
+
+#~ msgid "Set invoice as booked"
+#~ msgstr "Bogfør faktura"
+
+#~ msgid "Send invoice by"
+#~ msgstr "Send faktura pr"
+
+#~ msgid "Order layout template "
+#~ msgstr "Order layout skabelon"
+
+#~ msgid "The layout template to be used for orders."
+#~ msgstr "Layoutskabelonen, der skal bruges til ordrer."
+
+#~ msgid "Invoice layout template"
+#~ msgstr "Faktura layout skabelon"
+
+#~ msgid "The layout template to be used for invoices."
+#~ msgstr "Layoutskabelonen, der skal bruges til fakturaer."
+
+#~ msgid "Sequential  number"
+#~ msgstr "Løbenummer"
+
+#~ msgid ""
+#~ "Sequential  number that is prefixed to the WooCommerce order number on "
+#~ "synchronization."
+#~ msgstr ""
+#~ "Sekventielt nummer, der er forankret til WooCommerce-ordrenummeret ved "
+#~ "synkronisering."
+
+#~ msgid " (Error code: "
+#~ msgstr "(Fejlkode:"

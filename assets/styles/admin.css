@@ -1,0 +1,437 @@
+@font-face {
+    font-family: 'wetail';
+    src: url('../fonts/wetail.eot?bb7lu0');
+    src: url('../fonts/wetail.eot?bb7lu0#iefix') format('embedded-opentype'),
+    url('../fonts/wetail.ttf?bb7lu0') format('truetype'),
+    url('../fonts/wetail.woff?bb7lu0') format('woff'),
+    url('../fonts/wetail.svg?bb7lu0#wetail') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="wetail-icon-"], [class*=" wetail-icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    /*font-family: 'wetail' !important;*/
+    font-family: WooCommerce !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="wetail-icon-"]:before, [class*=" wetail-icon-"]:before {
+    font-size: 1.4em;
+}
+
+.wetail-icon-printer:before {
+    content: "\e020";
+}
+
+.wetail-icon-repeat:before {
+    /*    content: "\e058";*/
+    content: "\e009";
+}
+
+.wetail-icon-repeat.sendInvoiceToCustomer {
+    font-size: 1.3em;
+}
+
+.wetail-icon-repeat.sendInvoiceToCustomer:before {
+    content: none;
+}
+
+.wetail-icon-repeat.sendInvoiceToCustomer .fa-file-text-o:before {
+    position: relative;
+    top: -1px;
+}
+
+.wetail-icon-check:before {
+    content: "\e116";
+}
+
+.wetail-icon-cross:before {
+    content: "\e117";
+}
+
+.wetail-visma-status {
+    box-sizing: border-box;
+    /*	border-width: 1px;
+        border-style: solid;
+        border-radius: 100%;*/
+    display: inline-block;
+    font-size: 12px;
+    /*	height: 18px;*/
+    margin: 5px 2px;
+    padding-top: 2px;
+    /*	width: 18px;*/
+    text-align: center;
+}
+
+.wetail-visma-status.wetail-icon-check {
+    /*	border-color: #77cc6d;*/
+}
+
+.wetail-visma-status.wetail-icon-check:before {
+    /*	content: "\e116";*/
+    content: "\e015";
+    color: #77cc6d;
+}
+
+.wetail-visma-status.wetail-icon-cross {
+    /*	border-color: #ffba00;*/
+}
+
+.wetail-visma-status.wetail-icon-cross:before {
+    /*	content: "\e117";*/
+    content: "\e033";
+    /*	color: #ffba00;	*/
+    color: #999;
+}
+
+.wetail-icon-repeat {
+
+}
+
+.wetail-button {
+    height: 26px;
+    padding: 0 !important;
+    text-align: center;
+    width: 26px;
+}
+
+.wetail-button.wetail-hidden {
+    display: none;
+}
+
+.visma-status {
+    background: none;
+    position: relative;
+    display: block;
+}
+
+.visma-status::before {
+    background: none;
+    font-size: 1.4em;
+    font-family: WooCommerce;
+    font-variant: normal;
+    font-weight: 400;
+    left: 0;
+    line-height: 1;
+    position: absolute;
+    text-transform: none;
+    top: 0;
+}
+
+.visma-status.completed::before {
+    content: "\e015";
+    color: #2ea2cc;
+}
+
+.visma-status.not-completed::before {
+    content: "\e013";
+    color: #a00;
+}
+
+.spinner.visma-spinner {
+    background-position: left;
+    float: none;
+    vertical-align: top;
+    white-space: nowrap;
+}
+
+.visma-spinner.hero {
+    padding: 8px;
+}
+
+.column-visma .visma-spinner {
+    display: inline-block;
+    margin-left: 5px;
+    margin-top: 6px;
+}
+
+#visma-message.notice-error {
+    border-left-color: red;
+}
+
+.red.warning {
+    color: red;
+}
+
+/*** Visma User Errors ***/
+a.nav-tab.wetail-tab-not-validated {
+    border-top: 1px solid #ff0000;
+}
+
+input.wetail-tab-not-validated {
+    background-color: #efcbcb !important;
+}
+
+.meter {
+    height: 20px;
+    /* Can be anything */
+    position: relative;
+    padding: 10px;
+}
+
+.meter > span {
+    display: block;
+    height: 100%;
+    background-color: #0085ba;
+    position: relative;
+    overflow: hidden;
+}
+
+
+
+
+.settings_page_visma .form-table td input[type=number],
+.settings_page_visma .form-table td input.short-text,
+.settings_page_visma .form-table td select.short-text {
+    width: 100px;
+}
+
+.settings_page_visma .form-table td fieldset label {
+    display: block;
+}
+
+.settings_page_visma.create-orders .column-payment_account,
+.settings_page_visma.create-orders .column-voucher_series,
+.settings_page_visma:not(.create-orders) .column-terms_of_payment_id,
+.settings_page_visma:not(.create-orders) .column-order_status,
+.settings_page_visma:not(.create-orders) .column-create_invoice,
+.settings_page_visma:not(.create-orders) .column-order_convert_to_invoice,
+.settings_page_visma:not(.create-orders) .column-order_add_invoice_payment,
+.settings_page_visma:not(.create-orders) tr.order-number-prefix,
+.settings_page_visma:not(.show-organization-number-field) label[for=make_organization_number_field_required] {
+    display: none;
+}
+
+.settings_page_visma .form-table td,
+.settings_page_visma .form-table .wp-list-table th {
+    position: relative;
+}
+
+.settings_page_visma .form-table td .woocommerce-help-tip {
+    position: absolute;
+    left: -15px;
+    margin: 1px 0 !important;
+}
+
+.settings_page_visma .form-table .wp-list-table th .woocommerce-help-tip {
+    left: initial;
+    right: -10px;
+    position: relative;
+}
+
+section#visma-popups > * {
+    display: none;
+}
+
+section#visma-popups .visma_sync_products_modal,
+section#visma-popups .visma_sync_orders_date_range_modal {
+    text-align: center;
+    white-space: nowrap;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 9999999;
+}
+
+section#visma-popups .visma_sync_products_modal:before,
+section#visma-popups .visma_sync_orders_date_range_modal:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    margin-right: -0.25em;
+}
+
+section#visma-popups .visma_sync_products_modal > .modal_content,
+section#visma-popups .visma_sync_orders_date_range_modal > .modal_content {
+    user-select: none;
+    background-color: #f5f5f5;
+    width: 50%;
+    max-width: 600px;
+    -webkit-box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.75);
+    box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.75);
+    border-radius: 3px;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: left;
+    position: relative;
+}
+
+section#visma-popups .visma_sync_products_modal > .modal_content .wc-backbone-modal-main.hide-footer,
+section#visma-popups .visma_sync_orders_date_range_modal > .modal_content .wc-backbone-modal-main.hide-footer {
+    padding-bottom: 0;
+}
+
+section#visma-popups .visma_sync_products_modal > .modal_content .wc-backbone-modal-main.hide-footer footer,
+section#visma-popups .visma_sync_orders_date_range_modal > .modal_content .wc-backbone-modal-main.hide-footer footer {
+    display: none;
+}
+
+section#visma-popups .visma_sync_products_modal > .modal_content input[type=date]:after,
+section#visma-popups .visma_sync_orders_date_range_modal > .modal_content input[type=date]:after {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    content: "\f073";
+}
+
+section#visma-popups .visma_sync_products_modal > .modal_content label,
+section#visma-popups .visma_sync_orders_date_range_modal > .modal_content label {
+    display: block;
+}
+
+section#visma-popups .visma_sync_products_modal > .modal_content .visma-sync-on-date-range-section,
+section#visma-popups .visma_sync_products_modal > .modal_content .visma-sync-on-status-section,
+section#visma-popups .visma_sync_orders_date_range_modal > .modal_content .visma-sync-on-date-range-section,
+section#visma-popups .visma_sync_orders_date_range_modal > .modal_content .visma-sync-on-status-section {
+    margin: 20px 0;
+}
+
+section#visma-popups .visma_sync_products_modal > .modal_content .visma-product-sync-progress,
+section#visma-popups .visma_sync_products_modal > .modal_content .visma-order-sync-range-progress,
+section#visma-popups .visma_sync_orders_date_range_modal > .modal_content .visma-product-sync-progress,
+section#visma-popups .visma_sync_orders_date_range_modal > .modal_content .visma-order-sync-range-progress {
+    display: none;
+    margin: 0;
+}
+
+section#visma-popups .visma_sync_products_modal > .modal_content .visma-product-sync-progress h4,
+section#visma-popups .visma_sync_products_modal > .modal_content .visma-order-sync-range-progress h4,
+section#visma-popups .visma_sync_orders_date_range_modal > .modal_content .visma-product-sync-progress h4,
+section#visma-popups .visma_sync_orders_date_range_modal > .modal_content .visma-order-sync-range-progress h4 {
+    margin: 10px 0 5px 0;
+}
+
+section#visma-popups .visma_sync_products_modal > .modal_content .visma-product-sync-progress .visma_order_sync_range_progress_bar,
+section#visma-popups .visma_sync_products_modal > .modal_content .visma-product-sync-progress .visma_sync_products_progress_bar,
+section#visma-popups .visma_sync_products_modal > .modal_content .visma-order-sync-range-progress .visma_order_sync_range_progress_bar,
+section#visma-popups .visma_sync_products_modal > .modal_content .visma-order-sync-range-progress .visma_sync_products_progress_bar,
+section#visma-popups .visma_sync_orders_date_range_modal > .modal_content .visma-product-sync-progress .visma_order_sync_range_progress_bar,
+section#visma-popups .visma_sync_orders_date_range_modal > .modal_content .visma-product-sync-progress .visma_sync_products_progress_bar,
+section#visma-popups .visma_sync_orders_date_range_modal > .modal_content .visma-order-sync-range-progress .visma_order_sync_range_progress_bar,
+section#visma-popups .visma_sync_orders_date_range_modal > .modal_content .visma-order-sync-range-progress .visma_sync_products_progress_bar {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+section#visma-popups .visma_sync_products_modal > .modal_content .visma-product-sync-progress .visma_order_sync_range_progress_bar .outline,
+section#visma-popups .visma_sync_products_modal > .modal_content .visma-product-sync-progress .visma_sync_products_progress_bar .outline,
+section#visma-popups .visma_sync_products_modal > .modal_content .visma-order-sync-range-progress .visma_order_sync_range_progress_bar .outline,
+section#visma-popups .visma_sync_products_modal > .modal_content .visma-order-sync-range-progress .visma_sync_products_progress_bar .outline,
+section#visma-popups .visma_sync_orders_date_range_modal > .modal_content .visma-product-sync-progress .visma_order_sync_range_progress_bar .outline,
+section#visma-popups .visma_sync_orders_date_range_modal > .modal_content .visma-product-sync-progress .visma_sync_products_progress_bar .outline,
+section#visma-popups .visma_sync_orders_date_range_modal > .modal_content .visma-order-sync-range-progress .visma_order_sync_range_progress_bar .outline,
+section#visma-popups .visma_sync_orders_date_range_modal > .modal_content .visma-order-sync-range-progress .visma_sync_products_progress_bar .outline {
+    display: block;
+    width: 100%;
+    border: 2px solid #04a4cc;
+    border-radius: 3px;
+}
+
+section#visma-popups .visma_sync_products_modal > .modal_content .visma-product-sync-progress .visma_order_sync_range_progress_bar .fill,
+section#visma-popups .visma_sync_products_modal > .modal_content .visma-product-sync-progress .visma_sync_products_progress_bar .fill,
+section#visma-popups .visma_sync_products_modal > .modal_content .visma-order-sync-range-progress .visma_order_sync_range_progress_bar .fill,
+section#visma-popups .visma_sync_products_modal > .modal_content .visma-order-sync-range-progress .visma_sync_products_progress_bar .fill,
+section#visma-popups .visma_sync_orders_date_range_modal > .modal_content .visma-product-sync-progress .visma_order_sync_range_progress_bar .fill,
+section#visma-popups .visma_sync_orders_date_range_modal > .modal_content .visma-product-sync-progress .visma_sync_products_progress_bar .fill,
+section#visma-popups .visma_sync_orders_date_range_modal > .modal_content .visma-order-sync-range-progress .visma_order_sync_range_progress_bar .fill,
+section#visma-popups .visma_sync_orders_date_range_modal > .modal_content .visma-order-sync-range-progress .visma_sync_products_progress_bar .fill {
+    display: block;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 20px;
+    background-color: #04a4cc;
+}
+
+section#visma-popups .visma_sync_products_modal > .modal_content .visma-product-sync-progress .visma_order_sync_range_progress_bar .text,
+section#visma-popups .visma_sync_products_modal > .modal_content .visma-product-sync-progress .visma_sync_products_progress_bar .text,
+section#visma-popups .visma_sync_products_modal > .modal_content .visma-order-sync-range-progress .visma_order_sync_range_progress_bar .text,
+section#visma-popups .visma_sync_products_modal > .modal_content .visma-order-sync-range-progress .visma_sync_products_progress_bar .text,
+section#visma-popups .visma_sync_orders_date_range_modal > .modal_content .visma-product-sync-progress .visma_order_sync_range_progress_bar .text,
+section#visma-popups .visma_sync_orders_date_range_modal > .modal_content .visma-product-sync-progress .visma_sync_products_progress_bar .text,
+section#visma-popups .visma_sync_orders_date_range_modal > .modal_content .visma-order-sync-range-progress .visma_order_sync_range_progress_bar .text,
+section#visma-popups .visma_sync_orders_date_range_modal > .modal_content .visma-order-sync-range-progress .visma_sync_products_progress_bar .text {
+    left: 0;
+    top: 0;
+}
+
+section#visma-popups .visma_sync_products_modal > .modal_content label[for="visma_has_warehouse_module"],
+section#visma-popups .visma_sync_orders_date_range_modal > .modal_content label[for="visma_has_warehouse_module"] {
+    margin-top: 10px;
+}
+
+section#visma-popups .visma_sync_products_modal > .modal_content #visma_product_sync_progress_description,
+section#visma-popups .visma_sync_orders_date_range_modal > .modal_content #visma_product_sync_progress_description {
+    margin: 0;
+}
+
+.wp-core-ui select {
+    max-width: 12rem;
+}
+
+.column-visma .visma-order-row-actions .button {
+    line-height: 30px;
+    position: relative;
+}
+
+.column-visma > .button {
+    line-height: 30px;
+    position: relative;
+}
+
+.column-visma > .button::before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.invoice-print-pdf {
+    position: relative;
+    width: max-content;
+}
+
+.invoice-print-pdf .spin {
+    display: none;
+    width: 15px;
+    height: 15px;
+    border: 2px solid #c4c4c4;
+    border-top: 2px solid #363b3e;
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    border-radius: 100%;
+    z-index: 3;
+    animation: loader 1s infinite linear;
+}
+
+.invoice-print-pdf.loading > input {
+    padding-right: 40px;
+}
+
+.invoice-print-pdf.loading > .spin {
+    display: block;
+}
+
+@keyframes loader {
+    100% {
+        transform: rotate(360deg);
+    }
+}
